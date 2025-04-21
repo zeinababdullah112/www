@@ -1,0 +1,36 @@
+.container_polices {
+    max-width: 10000px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 0px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .container_polices h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  .container_polices ul {
+    padding-left: 0;
+  }
+  .container_polices li {
+    list-style: none;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+  }
+  .container_polices li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    color: #34495e;
+  }
+  .container_polices h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  .container_polices p {
+    line-height: 1.6;
+  }

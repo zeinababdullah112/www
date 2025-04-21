@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Manup Template">
+    <meta name="keywords" content="Manup, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TalkNest</title>
+
+    <script src="https://kit.fontawesome.com/6965a33ab1.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/sign-up.css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container">
+            <div class="logo">
+                <a href="./home.html">
+                    <img class="logo_talk" src="img/talk-b.png" alt="">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./home.html">Home</a></li>
+                        <li><a href="#" onclick="showLoginMessage(event)">About</a></li>
+                        <li><a href="#" onclick="showLoginMessage(event)">Speakers</a></li>
+                        <li><a href="#" onclick="showLoginMessage(event)">Schedule</a></li>
+                        <li><a href="#" onclick="showLoginMessage(event)">Contacts</a></li>
+                        <li><a href="#" onclick="showLoginMessage(event)">Subscription</a></li>
+                    </ul>
+                                        <!-- Modal -->
+                                        <div id="loginModal">
+                                            <div id="loginModalContent">
+                                            <p>You need to log in first!</p>
+                                            <button class="closeBtn" onclick="closeModal()">OK</button>
+                                            </div>
+                                            </div>
+                </nav>
+                <a href="log in.html" class="primary-btn top-btn"><i class="fa-solid fa-right-to-bracket"></i>  login</a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+<main>
+    <div class="shadow"></div>
+    <div class="signin-container">
+        <div class="signin-box">
+            <h2>Sign Up</h2>
+            <form id="signin-form">
+                <div class="input-group">
+                    <label for="firstName">First name *</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                </div>
+                <div class="input-group">
+                    <label for="lastName">Last name *</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="name@email.com" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password *</label>
+                    <div class="password-input">
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        <button type="button" class="password-toggle">&#x1F441;</button>    
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm Password *</label>
+                    <div class="password-input">
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                        <button type="button" class="password-toggle">&#x1F441;</button>    
+                    </div>
+                </div>
+                <button type="submit" class="signup-button">Sign Up</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="log in.html">Log in</a></p>
+        </div>
+    </div>
+</main>
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="partner-logo owl-carousel">
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <h3>YLY</h3>
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <h3>IEEE</h3>
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <h3>TEDx</h3>
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <h3>Rally</h3>
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <h3>Kenko</h3>
+                    </div>
+                </a>
+                <a href="#" class="pl-table">
+                    <div class="pl-tablecell">
+                        <h3>Techne</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-text">
+                        <div class="ft-logo">
+                            <a href="home.html" class="footer-logo"><img src="img/talk-A white.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="./home.html">Home</a></li>
+                            <li><a href="#" onclick="showLoginMessage(event)">About</a></li>
+                            <li><a href="#" onclick="showLoginMessage(event)">Speakers</a></li>
+                            <li><a href="#" onclick="showLoginMessage(event)">Schedule</a></li>
+                            <li><a href="#" onclick="showLoginMessage(event)">Contacts</a></li>
+                            <li><a href="#" onclick="showLoginMessage(event)">Subscription</a></li>
+                        </ul>
+                        <div class="copyright-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Website is created by Team BIS 8 
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                        <div class="ft-social">
+                            <a href="https://www.facebook.com/profile.php?id=61574836454332"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    
+        <!-- Js Plugins -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/sign-up.js"></script>
+        <script src="js/heading.js"></script>
+        <script src="js/auth-utils.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,153 @@
+main {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* يجعل الصفحة تأخذ ارتفاع الشاشة بالكامل */
+    background:url('contact-content-bg.jpg')
+}
+
+.signin-container {
+    width: 400px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative; /* Add this line */
+    z-index: 1; /* Add this line */
+    padding-right: 30px;
+}
+
+.signin-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #d1d1d1;
+    color: #000000;
+}
+
+
+.password-input {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #030303;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.signup-button {
+    width: 100%;
+    padding: 10px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
+	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.divider {
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
+	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+    color: #ffffff;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 20px 0;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
+	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+/*.social-button.google {
+     Add Google logo and styles 
+}
+
+.social-button.facebook {
+     Add Facebook logo and styles 
+}
+
+.social-button.apple {
+     Add Apple logo and styles 
+}
+*/
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #FFD700;
+    text-decoration: none;
+}
+p.login-link{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+}
+
+.login-link a{
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+.login-link a:hover {
+    color: #ff0000; /* Change to red when hovered */
+}

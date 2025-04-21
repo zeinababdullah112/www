@@ -1,0 +1,64 @@
+main {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* يجعل الصفحة تأخذ ارتفاع الشاشة بالكامل */
+    background:url('contact-content-bg.jpg')
+}
+.payment-container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+.payment-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    outline: none;
+}
+.expiry-container {
+    display: flex;
+    justify-content: space-between;
+}
+.expiry-container select {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f3f3;
+    font-size: 16px;
+    outline: none;
+}
+.pay-btn {
+    width: 100%;
+	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
+	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
+	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.pay-btn:hover {
+    background: #ba1b40;
+}
+#message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
